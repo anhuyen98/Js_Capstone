@@ -1,0 +1,13 @@
+.push-button {
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid grey;
+    cursor: pointer;
+    box-shadow: 0 6px #999;
+    &:active {
+      background-color: #e8a0b2;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    transition: all 0.5s ease-out;
+  }

@@ -1,0 +1,11 @@
+@mixin admin-switch {
+    width: 2em;
+    height: 1em;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    background-image: url("https://www.shutterstock.com/image-vector/user-icon-vector-260nw-393536320.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
