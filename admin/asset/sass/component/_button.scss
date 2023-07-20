@@ -1,0 +1,15 @@
+.btnPrimary {
+    color: white;
+    background-color: $primaryColor;
+    padding: 10px 30px;
+    transition: all .2s linear;
+    border: transparent;
+    border-radius: 6px;
+    &:hover, &:active, &:focus {
+        opacity: .6;
+    }
+}
+.imgPrimary {
+    width: 70%;
+    margin: auto;
+}

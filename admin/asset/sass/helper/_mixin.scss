@@ -1,0 +1,11 @@
+@mixin paddingSize($sizeSelect) {
+    @for $i from 1 to length($sizeSelect)+1 {
+        $size:nth($list: $sizeSelect, $n: $i);
+        .pd-#{$size} {
+            padding: #{$size}px;
+        }
+    }
+}
+
+@include paddingSize($paddingSizeBig);
+@include paddingSize($paddingSizeSmall);

@@ -1,1 +1,646 @@
-/*# sourceMappingURL=main.css.map */
+.pd-10 {
+  padding: 10px;
+}
+
+.pd-20 {
+  padding: 20px;
+}
+
+.pd-30 {
+  padding: 30px;
+}
+
+.pd-40 {
+  padding: 40px;
+}
+
+.pd-50 {
+  padding: 50px;
+}
+
+.pd-60 {
+  padding: 60px;
+}
+
+.pd-70 {
+  padding: 70px;
+}
+
+.pd-80 {
+  padding: 80px;
+}
+
+.pd-90 {
+  padding: 90px;
+}
+
+.pd-1 {
+  padding: 1px;
+}
+
+.pd-2 {
+  padding: 2px;
+}
+
+.pd-3 {
+  padding: 3px;
+}
+
+.pd-4 {
+  padding: 4px;
+}
+
+.pd-5 {
+  padding: 5px;
+}
+
+.pd-6 {
+  padding: 6px;
+}
+
+.pd-7 {
+  padding: 7px;
+}
+
+.pd-8 {
+  padding: 8px;
+}
+
+.pd-9 {
+  padding: 9px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #edeffc;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.btnPrimary {
+  color: white;
+  background-color: #6375ff;
+  padding: 10px 30px;
+  transition: all 0.2s linear;
+  border: transparent;
+  border-radius: 6px;
+}
+.btnPrimary:hover, .btnPrimary:active, .btnPrimary:focus {
+  opacity: 0.6;
+}
+
+.imgPrimary {
+  width: 70%;
+  margin: auto;
+}
+
+.toast-container {
+  z-index: 99999;
+  top: 10px;
+  right: 20px;
+}
+
+.toast {
+  overflow: hidden;
+  border: 2px solid #78e08f;
+}
+.toast .toast-header {
+  padding: 10px 20px;
+  color: #78e08f;
+  background-color: #fff;
+  border-bottom: 2px solid #78e08f;
+}
+.toast .toast-header i {
+  font-size: 30px;
+}
+.toast .toast-header button.btn-close {
+  opacity: 0.4;
+  transition: all 0.5s ease;
+}
+.toast .toast-header button.btn-close:hover {
+  opacity: 0.8;
+}
+.toast .toast-body {
+  background-color: #b8e994;
+}
+
+header.header {
+  background: #fff;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  right: 0;
+  width: 80%;
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+}
+
+.searchGroup {
+  position: relative;
+}
+.searchGroup .inputSearch {
+  padding: 8px 20px 8px 40px;
+  border-radius: 50px;
+  border-color: #6375ff;
+  background: rgba(99, 117, 253, 0.1);
+}
+.searchGroup button i {
+  position: absolute;
+  top: 34px;
+  left: 34px;
+  color: #6375ff;
+}
+
+.switchDarkLight {
+  padding: 20px;
+}
+.switchDarkLight div.form-switch {
+  padding-left: 3.5em;
+}
+.switchDarkLight div.form-switch input.form-check-input {
+  transform: scale(1.5);
+  border-color: #6375ff;
+}
+.switchDarkLight i {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.interactButton i {
+  font-size: 30px;
+  padding-right: 30px;
+  color: #6375ff;
+  opacity: 0.5;
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+.interactButton i:hover {
+  opacity: 1;
+}
+.interactButton div.form-switch {
+  padding-left: 3.5em;
+}
+.interactButton div.form-switch input.form-check-input {
+  transform: scale(1.5);
+  border-color: #6375ff;
+}
+.interactButton button {
+  width: 40px;
+  padding: 0;
+}
+.interactButton span.badge {
+  top: 5px;
+  left: 30px;
+  opacity: 1;
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+#changePosition button {
+  width: 70px;
+  padding: 4px;
+  margin: 0 5px;
+  border: 2px solid;
+}
+#changePosition button a {
+  text-decoration: none;
+}
+#changePosition button:hover a, #changePosition button.active a {
+  color: white;
+}
+
+nav.navbar {
+  background: #fff;
+  text-align: center;
+  justify-content: space-around;
+  padding: 30px 0;
+  border-bottom-right-radius: 10px;
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+}
+nav.navbar div.brand {
+  margin: 40px 10px;
+}
+nav.navbar div.brand i {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  background-color: #6375ff;
+  border-radius: 14px;
+  vertical-align: super;
+}
+nav.navbar div.brand h1 {
+  margin-left: 15px;
+  color: #6375ff;
+  font-size: 30px;
+}
+nav.navbar div.listChoose {
+  margin: 30px 0;
+}
+nav.navbar div.listChoose button.nav-link {
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 10px 30px;
+  color: #6375ff;
+  transition: all 0.3s linear;
+}
+nav.navbar div.listChoose button.nav-link:hover {
+  transform: translateX(10px);
+}
+nav.navbar div.listChoose button.nav-link i {
+  margin-right: 10px;
+}
+nav.navbar div.listChoose button.nav-link.active {
+  background-color: #6375ff;
+  color: #fff;
+  animation: moveRtoL 0.3s linear;
+}
+nav.navbar div.socialContact button {
+  padding: 0;
+  transition: all 0.2s linear;
+}
+nav.navbar div.socialContact button i {
+  font-size: 35px;
+  color: #6375ff;
+  padding: 8px 4px;
+  margin: 15px 0;
+  transition: all 0.2s linear;
+}
+nav.navbar div.socialContact button i:hover {
+  transform: translateY(-10px);
+}
+nav.navbar button.btnUpgrade {
+  transition: all 1s ease;
+}
+nav.navbar button.btnUpgrade:hover {
+  transform: rotate(360deg);
+}
+
+@keyframes moveRtoL {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(25%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.copyright {
+  width: 50%;
+  margin: auto;
+  color: #6375ff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.copyright .bgfooter {
+  background-color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+}
+
+div img.pngImg {
+  position: absolute;
+  top: -150px;
+  left: 0;
+  z-index: 999;
+  width: 50%;
+}
+
+div img.pngImg {
+  position: absolute;
+  top: -150px;
+  left: 0;
+  z-index: 999;
+  width: 50%;
+}
+
+div img.pngImg {
+  position: absolute;
+  top: -150px;
+  left: 0;
+  z-index: 999;
+  width: 50%;
+}
+
+.contentNav {
+  padding-top: 10rem;
+}
+
+div.order .productHeader h4 {
+  color: #0a1f3e;
+  font-size: 30px;
+}
+div.order .productHeader select.formSelect {
+  background-color: #fff;
+  border-color: rgb(169, 178, 243);
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+  transition: all 0.1s linear;
+}
+div.order .productHeader select.formSelect:hover, div.order .productHeader select.formSelect:focus {
+  cursor: pointer;
+  box-shadow: none;
+  transform: translateY(0.375rem);
+}
+div.order .productHeader nav ul.pagination {
+  margin-bottom: 0;
+}
+div.order .productHeader nav ul.pagination li.page-item {
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+  transition: all 0.1s linear;
+}
+div.order .productHeader nav ul.pagination li.page-item:first-child {
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+div.order .productHeader nav ul.pagination li.page-item:last-child {
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+div.order .productHeader nav ul.pagination li.page-item:hover, div.order .productHeader nav ul.pagination li.page-item:active, div.order .productHeader nav ul.pagination li.page-item:focus {
+  box-shadow: none;
+  transform: translateY(0.375rem);
+}
+div.order .productHeader nav ul.pagination li.page-item a.page-link {
+  border: 1px solid rgb(170, 178, 243);
+  color: #6375ff;
+}
+div.order .productHeader nav ul.pagination li.page-item a.page-link.active {
+  --bs-pagination-active-bg: #6375ff;
+  color: #fff;
+}
+div.order .productHeader button.btnUpload {
+  position: relative;
+  width: 65%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5px 10px;
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+  transition: all 0.2s linear;
+  border: 1px solid rgb(170, 178, 243);
+}
+div.order .productHeader button.btnUpload i {
+  position: absolute;
+  color: #6375ff;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 25px;
+  top: -5px;
+  left: -25px;
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+  transition: all 0.2s linear;
+  border: 1px solid rgb(170, 178, 243);
+}
+div.order .productHeader button.btnUpload:hover, div.order .productHeader button.btnUpload:focus {
+  box-shadow: none;
+  transform: translateY(0.375rem);
+  opacity: 1;
+  color: #6375ff;
+  background-color: #fff;
+}
+div.order .productHeader button.btnUpload:hover i, div.order .productHeader button.btnUpload:focus i {
+  box-shadow: none;
+  opacity: 1;
+  background-color: #e9ecef;
+}
+div.order .productHeader .productItem .card {
+  margin: auto;
+  width: 90%;
+  border-color: rgb(169, 178, 243);
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+  transition: all 0.1s linear;
+}
+div.order .productHeader .productItem .card:hover, div.order .productHeader .productItem .card:focus {
+  box-shadow: none;
+  transform: translateY(0.375rem);
+}
+div.order .productHeader .productItem .card .bgImg {
+  width: 80%;
+  margin: auto;
+}
+div.order .productHeader .productItem .card .bgImg img {
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  padding: 15px;
+}
+div.order .productHeader .productItem .card .card-body span:first-child {
+  padding: 10px;
+}
+div.order .productHeader .productItem .card .card-body span:last-child {
+  font-size: 20px;
+  font-weight: 700;
+}
+div.order .productHeader .productItem .card .card-body h5 {
+  margin: 10px 0;
+}
+div.order .productHeader .productItem .card .card-body i {
+  color: rgb(243, 243, 11);
+}
+div.order .productHeader .productItem .card .card-body a {
+  width: 100%;
+  margin: 10px 0;
+  background-color: #6375ff;
+  transition: all 0.1s linear;
+}
+div.order .productHeader .productItem .card .card-body a:hover {
+  transform: scale(1.2);
+  opacity: 0.9;
+  animation: zoomInOut 1s infinite forwards;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    padding: 5px;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.contentNav {
+  padding-top: 10rem;
+}
+
+div.ecommerce .productHeader select.formSelect {
+  background-color: #fff;
+  border-color: rgb(169, 178, 243);
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+  transition: all 0.1s linear;
+}
+div.ecommerce .productHeader select.formSelect:hover, div.ecommerce .productHeader select.formSelect:focus {
+  cursor: pointer;
+  box-shadow: none;
+  transform: translateY(0.375rem);
+}
+div.ecommerce .productHeader button.btnUpload {
+  position: relative;
+  width: 65%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5px 10px;
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+  transition: all 0.2s linear;
+  border: 1px solid rgb(170, 178, 243);
+}
+div.ecommerce .productHeader button.btnUpload i {
+  position: absolute;
+  color: #6375ff;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 25px;
+  top: -5px;
+  left: -25px;
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+  transition: all 0.2s linear;
+  border: 1px solid rgb(170, 178, 243);
+}
+div.ecommerce .productHeader button.btnUpload:hover, div.ecommerce .productHeader button.btnUpload:focus {
+  box-shadow: none;
+  transform: translateY(0.375rem);
+  opacity: 1;
+  color: #6375ff;
+  background-color: #fff;
+}
+div.ecommerce .productHeader button.btnUpload:hover i, div.ecommerce .productHeader button.btnUpload:focus i {
+  box-shadow: none;
+  opacity: 1;
+  background-color: #e9ecef;
+}
+div.ecommerce .productHeader .productItem .card {
+  margin: auto;
+  width: 90%;
+  border-color: rgb(169, 178, 243);
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+  transition: all 0.1s linear;
+}
+div.ecommerce .productHeader .productItem .card:hover, div.ecommerce .productHeader .productItem .card:focus {
+  box-shadow: none;
+  transform: translateY(0.375rem);
+}
+div.ecommerce .productHeader .productItem .card .bgImg {
+  width: 80%;
+  margin: auto;
+}
+div.ecommerce .productHeader .productItem .card .bgImg img {
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  padding: 15px;
+}
+div.ecommerce .productHeader .productItem .card .card-body span:first-child {
+  padding: 10px;
+}
+div.ecommerce .productHeader .productItem .card .card-body span:last-child {
+  font-size: 20px;
+  font-weight: 700;
+}
+div.ecommerce .productHeader .productItem .card .card-body h5 {
+  margin: 10px 0;
+}
+div.ecommerce .productHeader .productItem .card .card-body i {
+  color: rgb(243, 243, 11);
+}
+div.ecommerce .productHeader .productItem .card .card-body a {
+  width: 100%;
+  margin: 10px 0;
+  background-color: #6375ff;
+  transition: all 0.1s linear;
+}
+div.ecommerce .productHeader .productItem .card .card-body a:hover {
+  transform: scale(1.2);
+  opacity: 0.9;
+  animation: zoomInOut 1s infinite forwards;
+}
+div.ecommerce .productHeader span.form-control.form-messErr {
+  border: none;
+  padding: 0.375rem 0;
+}
+div.ecommerce .productLists {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+  border-color: rgb(169, 178, 243);
+}
+div.ecommerce .productLists h5 {
+  font-size: 1.5rem;
+  color: #0a1f3e;
+}
+div.ecommerce .productLists .entriesInput select {
+  border-color: #6375ff;
+  background: rgba(99, 117, 253, 0.1);
+  width: 80px;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 6px;
+}
+div.ecommerce .productLists .entriesInput select.form-select {
+  display: inline-block;
+  margin: 0 5px;
+}
+div.ecommerce .productLists nav ul.pagination {
+  margin-bottom: 0;
+}
+div.ecommerce .productLists nav ul.pagination li.page-item {
+  box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+  transition: all 0.1s linear;
+}
+div.ecommerce .productLists nav ul.pagination li.page-item:first-child {
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+div.ecommerce .productLists nav ul.pagination li.page-item:last-child {
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+div.ecommerce .productLists nav ul.pagination li.page-item:hover, div.ecommerce .productLists nav ul.pagination li.page-item:active, div.ecommerce .productLists nav ul.pagination li.page-item:focus {
+  box-shadow: none;
+  transform: translateY(0.375rem);
+}
+div.ecommerce .productLists nav ul.pagination li.page-item a.page-link {
+  border: 1px solid rgb(170, 178, 243);
+  color: #6375ff;
+}
+div.ecommerce .productLists nav ul.pagination li.page-item a.page-link.active {
+  --bs-pagination-active-bg: #6375ff;
+  color: #fff;
+}
+div.ecommerce .productLists .productTable .table thead {
+  background-color: #6375ff;
+  color: #fff;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    padding: 5px;
+  }
+  100% {
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+body {
+    background-color: #F3E5F5;
+}
+
+header p {
+    margin: auto;
+    width: 40%;
+    font-size: 30px;
+    color: #F57F17;
+    background-color: #FFF9C4;
+    border: 2px solid;
+    padding: 0;
+    line-height: 4rem;
+    border-radius: 15px;
+}
+
+header h1 {
+    color: #E65100;
+    padding: 20px;
+}
+
+header lord-icon {
+    width: 60px;
+    height: 60px;
+    vertical-align: top;
+    line-height: 4rem;
+}

@@ -1,0 +1,29 @@
+.toast-container {
+    z-index: 99999;
+    top: 10px;
+    right: 20px;
+}
+.toast {
+    overflow: hidden;
+    border: 2px solid #78e08f;
+    .toast-header {
+        padding:10px 20px;
+        color: #78e08f;
+        background-color: #fff;
+        border-bottom: 2px solid #78e08f;
+        i {
+            font-size: 30px;
+        }
+        button.btn-close {
+            opacity: .4;
+            transition: all .5s ease;
+            &:hover {
+                opacity: .8;
+            }
+        }
+        
+    }
+    .toast-body {
+        background-color: #b8e994;
+    }
+}

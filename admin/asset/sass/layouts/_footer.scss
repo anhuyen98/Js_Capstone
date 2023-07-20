@@ -1,0 +1,14 @@
+.copyright {
+    width: 50%;
+    margin: auto;
+    color: $primaryColor;
+    font-size: 16px;
+    font-weight: 500;
+    .bgfooter {
+        background-color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 10px 10px 0 0;
+        box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+    }
+}

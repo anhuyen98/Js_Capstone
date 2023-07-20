@@ -1,0 +1,91 @@
+nav.navbar {
+    background: $bgColor;
+    text-align: center;
+    justify-content: space-around;
+    padding: 30px 0;
+    border-bottom-right-radius:10px;
+    box-shadow: -4px 4px 0 0 rgb(169, 178, 243);
+    div.brand {
+        margin: 40px 10px;
+
+        i {
+            font-size: 30px;
+            padding: 10px;
+            color: white;
+            background-color: #6375ff;
+            border-radius: 14px;
+            vertical-align: super;
+        }
+
+        h1 {
+            margin-left: 15px;
+            color: $primaryColor;
+            font-size: 30px;
+        }
+    }
+
+    div.listChoose {
+        margin: 30px 0;
+
+
+        button.nav-link{
+            font-size: 18px;
+            margin: 10px 0;
+            padding: 10px 30px;
+            color: $primaryColor;
+            transition: all .3s linear;
+            &:hover {
+                transform: translateX(10px);
+            }
+
+            i {
+                margin-right: 10px;
+            }
+
+            &.active {
+                background-color: $primaryColor;
+                color: $bgColor;
+                animation: moveRtoL .3s linear;
+
+            }
+        }
+    }
+
+    div.socialContact button {
+        padding: 0;
+        transition: all .2s linear;
+        i {
+            font-size: 35px;
+            color: #6375ff;
+            padding: 8px 4px;
+            margin: 15px 0;
+            transition: all .2s linear;
+                &:hover {
+                    transform: translateY(-10px);
+                }
+        }
+    }
+
+    button.btnUpgrade {
+        transition: all 1s ease;
+        &:hover {
+            transform: rotate(360deg);
+        }
+    }
+
+
+}
+@keyframes moveRtoL {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(25%);
+        opacity: .5;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
