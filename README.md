@@ -1,9 +1,8 @@
-Bài tập JS_Capstone
-Web H2 - CART về 2 dòng smartphone 
-    1. SamSung
-    2. Iphone
+> Bài tập JS_Capstone  
+> Web H2 - CART về 2 dòng smartphone   
+>     SamSung
+>     Iphone
 
-Create: 1. Dương Vũ An Huyên
-        2. Vũ Minh Hiếu
+> Create: Dương Vũ An Huyên, Vũ Minh Hiếu
 
-Phân chia công việc ( PCCV.md )
+> Phân chia công việc ( PCCV.md )
