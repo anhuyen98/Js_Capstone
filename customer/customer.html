@@ -19,7 +19,7 @@
 
 <body>
   <div class="content-container d-md-flex">
-    <div class="sidebar d-flex flex-column flex-shrink-0 p-3 bg-light">
+    <div class="sidebar d-flex flex-column flex-shrink-0 p-3">
       <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
         <h1 class="sidebar-title fs-4">CellphoneX</h1>
       </a>
@@ -111,11 +111,26 @@
               </div>
             </div>
           </div>
-          <button class="admin-switch"><a href="../index.html">Admin</a></button>
+          <button class="admin-switch small-button"><a href="../index.html">Admin</a></button>
         </div>
       </header>
-      <div class="main-top-content pt-3">
-        <h3>Products</h3>
+      <div class="hero background-overlay d-md-flex justify-content-between">
+
+        <div class="hero__content">
+          <div class="hero__title title  ">
+            Buy your favortite phone today!!
+          </div>
+          <div class=""></div>
+          <a href="#products"><button class="small-button hero__button">  Buy now</button></a>
+        </div>
+        <div class="hero__banner">
+          <img class="hero__banner-img banner1" src="./img/banner1.jpg" alt="">
+          <img class="hero__banner-img banner2" src="./img/banner2.jpg" alt="">
+        </div>
+
+      </div>
+      <div class="main-top-content p-5 mt-5">
+        <h3 id="products">Products</h3>
         <div class="wrapper">
           <div class="dropdown">
             <select class="categories">
@@ -139,6 +154,9 @@
       </div>
     </div>
   </div>
+  <footer class="footer">
+      <p>&copy; 2023 Cellphone Website. All rights reserved.</p>
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

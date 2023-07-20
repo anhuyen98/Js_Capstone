@@ -14,20 +14,20 @@ function sort(arr, lo, hi) {
 
 function split (arr, lo, hi) {
     let idx = lo - 1;
-    let p = arr[hi].price;
+    let p = arr[hi];
 
     for(let i = lo; i < hi; i++) {
-        if(arr[i].price <= arr[hi].price) {
+        if(Number(arr[i].price) <= Number(arr[hi].price)) {
             idx++
-            let tmp = arr[i].price;
-            arr[i].price = arr[idx.price];
-            arr[idx].price = tmp;
+            let tmp = arr[i];
+            arr[i] = arr[idx];
+            arr[idx] = tmp;
         }
     }
     idx++;
 
-    arr[hi].price = arr[idx].price;
-    arr[idx].price = p;
+    arr[hi] = arr[idx];
+    arr[idx] = p;
     return idx;
 
 
@@ -36,6 +36,7 @@ function split (arr, lo, hi) {
 export default function quickSort(array) {
 
     sort(array, 0, array.length - 1)
+    console.log(array)
     return array;
 }
 

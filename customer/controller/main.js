@@ -15,7 +15,6 @@ async function getData(url) {
 
 
 const data = await getData(URL)
-console.log(data)
 
 
 const productCategory = getElement(".categories")

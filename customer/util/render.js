@@ -154,7 +154,7 @@ export default function renderProduct(arr) {
     let content = "";
     arr.map((e) => {
         content += ` 
-                <div class="col" style="max-width: 450px">
+                <div class="col-3" style="max-width: 450px">
                 <div class="card">
                 <img src=${e.img} class="card-img-top card-img-top${e.id
             }" alt="..." />
@@ -183,7 +183,7 @@ export default function renderProduct(arr) {
       Camera truoc: ${e.frontCamera}
                 </div>
                 </div>
-                <button type="button" class="push-button btn btn-primary add_button" 
+                <button type="button" class="push-button add_button" 
        onclick="
         addToCart(${e.id});
        ">

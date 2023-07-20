@@ -4,11 +4,26 @@
   padding: 1rem;
   border: 1px solid grey;
   cursor: pointer;
+  background-color: palevioletred;
   box-shadow: 0 6px #999;
   transition: all 0.5s ease-out;
 }
 .push-button:active {
-  background-color: #e8a0b2;
+  background-color: #49262f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.small-button {
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+  box-shadow: 0 6px #999;
+  transition: all 0.5s ease-out;
+}
+.small-button:active {
+  background-color: #49262f;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -26,12 +41,59 @@ body {
   justify-content: space-between;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 table {
   border-collapse: separate;
   border-spacing: 1px 0;
 }
 table th {
   padding: 5px 4px;
+}
+
+.hero .hero__content {
+  position: relative;
+  color: pink;
+}
+.hero .hero__content .hero__title {
+  font-size: 70px;
+  max-width: 80%;
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+.hero .hero__button {
+  margin-left: 3rem;
+  color: rosybrown;
+}
+.hero .hero__banner {
+  padding-right: 2rem;
+}
+.hero .hero__banner:hover .banner2 {
+  animation: goBehind 0.4s;
+}
+.hero .hero__banner:hover .banner1 {
+  z-index: 10;
+  transform: perspective(100px) translate3d(-30px, 0, 20px);
+}
+.hero .hero__banner .hero__banner-img {
+  max-width: 100%;
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: transform 0, 3s ease;
+}
+
+.banner1 {
+  position: relative;
+}
+
+.banner2 {
+  position: absolute;
+  right: 30px;
+  top: 180px;
 }
 
 .remove {
@@ -60,11 +122,13 @@ table th {
 
 .content-container {
   gap: 1em;
-  background-color: #C3F5FA;
+  overflow-x: hidden;
+  background-color: #c4a7e7;
 }
 .content-container .sidebar {
+  background-color: #fbf8f3;
   width: 15%;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .content-container .sidebar .sidebar-title {
   font-size: 1.5rem;
@@ -90,7 +154,7 @@ table th {
   border: 1px solid grey;
 }
 .right-content header {
-  background-color: white;
+  background-color: #c4a7e7;
   padding: 2rem 1rem;
 }
 .right-content .card {
@@ -106,7 +170,6 @@ table th {
   padding: 10px 0;
 }
 .right-content .card .card-img-top:hover {
-  color: red;
   transform: translateY(10px);
 }
 
@@ -117,4 +180,22 @@ table th {
 
 .cart-body td {
   padding: 0 1rem;
+}
+
+footer {
+  background-color: #c4a7e7;
+  padding: 2rem;
+  border-top: solid 1px rosybrown;
+}
+
+@keyframes goBehind {
+  0% {
+    transform: translate3d(0, -50%, -20px);
+  }
+  50% {
+    transform: translateY(-30%);
+  }
+  100% {
+    transform: translateY(-10);
+  }
 }/*# sourceMappingURL=main.css.map */
